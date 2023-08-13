@@ -56,7 +56,7 @@ def save():
             entry_web.delete(0, END)
             entry_pass.delete(0, END)
 
-
+#
  # json ile new_data dict. bilgileri(kullanıcının verdiği bilgileri) data_files ile data.json a dic olarak YAZDIK "w" olmalı
             #json.dump(new_data, data_files, indent=2)
 
